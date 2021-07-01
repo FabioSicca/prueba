@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <math.h>
+#include "adicional.h"
 
 #define PI 3.141592
 
@@ -30,6 +31,7 @@ int main(){
 	cin >> radio;
 	imprimir_superficie(radio);
 	imprimir_volumen(radio);
+	funcion();
 	return 0;
 }
 
